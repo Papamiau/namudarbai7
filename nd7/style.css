@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 800px;
+  border: 3px solid black;
+  margin: auto;
+  gap: 5rem;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+.boxtwo {
+  width: 200px;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  color: black;
+  align-items: center;
+  font-size: 1em;
+  font: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: top center;
+}
+.boxone {
+  width: 200px;
+  height: 550px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  color: black;
+  align-items: center;
+  font-size: 1em;
+  font: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: top center;
+}
+.boxthree {
+  width: 200px;
+  height: 450px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 2%;
+  color: black;
+  align-items: center;
+  font-size: 1em;
+  font: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.free {
+  display: flex;
+  justify-content: top;
+}
+.really {
+  background: yellow;
+  color: black;
+  display: flex;
+  padding: 10px;
+  margin: 20px;
+  border: 20px;
+  border-radius: 5px;
+}
+.really1 {
+  background: yellow;
+  color: black;
+  display: flex;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+}
+.bigger {
+  font-size: 300%;
+}
+.boxtwo {
+  order: -1;
+}
+h3 {
+  color: white;
+
+  align-items: top;
+}
